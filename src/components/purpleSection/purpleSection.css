@@ -1,0 +1,23 @@
+.purple-section {
+  background-color: var(--bg-purple);
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg);
+}
+
+@media all and (max-width: 1279px) {
+  .purple-section {
+    background-position: center bottom;
+  }
+}
+@media all and (max-width: 767px) {
+  .purple-section {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg-mobile.jpg);
+    min-height: 1150px;
+    background-position: right center;
+  }
+  .purple-heading {
+    margin-top: 50px;
+  }
+  .purple-description {
+    margin-top: 500px;
+  }
+}
