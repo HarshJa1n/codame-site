@@ -4,7 +4,7 @@ import designteam from "./designteam.png";
 const FirstSection = () => {
   return (
     <div className="first-section-wrapper">
-      <div className="flex make-center first-section">
+      <div className="flex make-center first-section max-width">
         <div className="first-heading">
           Presenting{" "}
           <span>Indian Institute of Information Technology, Bhopal's</span>{" "}

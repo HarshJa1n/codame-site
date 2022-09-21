@@ -10,15 +10,18 @@ span {
   font-weight: 500;
 }
 .first-heading {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   margin: 5px 10px;
 }
 
 .first-subheading {
-  font-size: 85px;
+  font-size: 70px;
   font-weight: 700;
-  line-height: 85px;
+  line-height: 70px;
+}
+.picture {
+  height: 500px;
 }
 
 @media all and (max-width: 1279px) {
