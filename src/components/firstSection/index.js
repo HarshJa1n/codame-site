@@ -1,17 +1,19 @@
 import React from "react";
-import Button from "../common/buttons";
 import "./firstSection.css";
+import designteam from "./designteam.png";
 const FirstSection = () => {
   return (
     <div className="first-section-wrapper">
-      <div className="flex make-center flex-col max-width first-section">
+      <div className="flex make-center first-section">
         <div className="first-heading">
-          rewards for paying credit card bills.
+          Presenting{" "}
+          <span>Indian Institute of Information Technology, Bhopal's</span>{" "}
+          designing club:
+          <div className="first-subheading">Designers' Den</div>
         </div>
-        <div className="first-subheading">
-          join 9M+ members who win rewards and cashbacks everyday
+        <div className="image-holder flex">
+          <img src={designteam} className="picture" alt="team" height={600} />
         </div>
-        <Button buttonText="Download CRED" />
       </div>
     </div>
   );
