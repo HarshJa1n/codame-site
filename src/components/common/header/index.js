@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+import deslogo from "./deslogo.png";
 
 const Header = () => {
   const [onMenu, setOnMenu] = useState(false);
@@ -20,11 +21,7 @@ const Header = () => {
         </div>
       </div>
       <div className="flex max-width header">
-        <img
-          src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png"
-          alt="cred logo"
-          className="header-logo"
-        />
+        <img src={deslogo} alt="logo" className="header-logo" />
         <div className="only-mobile mobile-menu-button">
           <button
             class={`hamburger hamburger--spin ${onMenu ? "is-active" : ""}`}
