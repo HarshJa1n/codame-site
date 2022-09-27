@@ -12,11 +12,12 @@
   font-size: 18px;
   font-weight: 600;
   margin: 0px 20px 0px 24px;
+  cursor: pointer;
 }
 
 .menu-wrapper {
   position: relative;
-  background-color: #93329e;
+  background-color: #2f0b33;
 }
 
 .mobile-menu {

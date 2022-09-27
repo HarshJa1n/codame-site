@@ -24,10 +24,11 @@
 }
 
 .image-section-child {
-  padding: 240px 0px 180px;
+  padding: 120px 0px 130px 0px;
 }
 
 .image-section-heading {
+  margin-top: 30px;
   font-size: 100px;
   line-height: 96px;
   font-weight: 700;
@@ -35,26 +36,27 @@
 }
 
 .image-section-subheading {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 38px;
   font-weight: 700px;
-  max-width: 630px;
+  max-width: 500px;
   margin-top: 16px;
 }
 
 .image-section-description {
-  margin-bottom: 40px;
-  font-size: 18px;
-  font-weight: 600;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 300;
   line-height: 28px;
-  max-width: 630px;
+  max-width: 450px;
+  margin-bottom: 40px;
 }
 @media all and (max-width: 1279px) {
   .max-width {
     max-width: 80%;
   }
   .image-section-heading {
-    max-width: 670px;
+    max-width: 500px;
   }
   .image-section-child {
     padding: 100px 0px;
@@ -71,22 +73,24 @@
   }
 
   .image-section-heading {
-    font-size: 65px;
-    line-height: 58px;
+    font-size: 50px;
+    line-height: 50px;
   }
   .image-section-subheading {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
-    margin-top: 26px;
+    margin-top: 15px;
+    font-weight: 500;
   }
   .image-section-description {
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 16px;
     line-height: 20px;
-    margin-top: 500px;
+    margin-top: 80px;
+    max-width: 90%;
   }
   .image-section-child {
-    padding: 195px 0px 90px;
+    padding: 95px 0px 10px;
   }
 }
 

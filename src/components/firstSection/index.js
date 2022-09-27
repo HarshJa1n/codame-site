@@ -5,13 +5,13 @@ const FirstSection = () => {
   return (
     <div className="first-section-wrapper">
       <div className="flex make-center first-section max-width">
-        <div className="first-heading">
+        <div className="first-heading ">
           Presenting{" "}
           <span>Indian Institute of Information Technology, Bhopal's</span>{" "}
           designing club:
-          <div className="first-subheading">Designers' Den</div>
+          <div className="first-subheading scale-in-bottom">Designers' Den</div>
         </div>
-        <div className="image-holder flex">
+        <div className="image-holder flex ">
           <img src={designteam} className="picture" alt="team" height={600} />
         </div>
       </div>
