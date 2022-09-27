@@ -1,1 +1,1 @@
-For practicing react and UI Components.
+-Designed Logo and Backgrounds using <em> Figma. <em/>
