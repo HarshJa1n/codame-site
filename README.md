@@ -1,1 +1,1 @@
--Designed Logo and Backgrounds using <em> Figma. <em/>
+-Designed Logo and Backgrounds using <b> Figma. <b/>
