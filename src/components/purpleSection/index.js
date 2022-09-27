@@ -1,27 +1,33 @@
 import React from "react";
 import "./purpleSection.css";
 import Button from "../common/buttons";
+import bgpurple from "./bgpurple.png";
 
 const PurpleSection = () => {
   return (
-    <div className="purple-section image-section">
+    <div
+      className="purple-section image-section"
+      style={{ backgroundImage: `url(${bgpurple})` }}
+    >
       <div className="max-width">
-        <div className="image-section-child">
-          <div className="image-section-top">
-            <div className="image-section-heading purple-heading">
-              security first. and second.
+        <div className="image-section-child make-center flex">
+          <div className="image-section-top scale-in-bottom">
+            <div className="image-section-heading purple-heading">TEAM</div>
+            <div className="image-section-subheading purple-subheading">
+              Meet the lions and lionesses of Designers' Den
             </div>
-            <div className="image-section-subheading">
-              what’s yours remains only yours.
-            </div>
-            <div className="image-section-bottom">
+            <div className="image-section-bottom scale-in-bottom">
               <div className="image-section-description purple-description">
-                CRED ensures that all your personal data and transactions are
-                encrypted, and secured so what’s yours remains only yours.
-                there’s no room for mistakes because we didn’t leave any.
+                Member1
               </div>
-              <div>
-                <Button buttonText="Become a member" />
+              <div className="image-section-description purple-description">
+                Member2
+              </div>
+              <div className="image-section-description purple-description">
+                Member3
+              </div>
+              <div className="flex make-center">
+                <Button buttonText="View all members" />
               </div>
             </div>
           </div>

@@ -1,28 +1,33 @@
 import React from "react";
 import "./blueSection.css";
 import Button from "../common/buttons";
+import bgblue from "./bgblue.png";
 
 const BlueSection = () => {
   return (
-    <div className="blue-section image-section">
+    <div
+      className="blue-section image-section"
+      style={{ backgroundImage: `url(${bgblue})` }}
+    >
       <div className="max-width">
-        <div className="image-section-child">
-          <div className="image-section-top">
-            <div className="image-section-heading blue-heading">
-              we take your money matters seriously.
-            </div>
+        <div className="image-section-child blue-child">
+          <div className="image-section-top scale-in-bottom">
+            <div className="image-section-heading blue-heading">EVENTS</div>
             <div className="image-section-subheading">
-              so that you don’t have to.
+              Amazing events organised by Designers' Den:
             </div>
-            <div className="image-section-bottom">
+            <div className="image-section-bottom scale-in-bottom">
               <div className="image-section-description blue-description">
-                never miss a due date with reminders to help you pay your bills
-                on time, instant settlements mean you never wait for your
-                payments to go through and statement analysis lets you know
-                where your money goes, always.
+                Event#1
+              </div>
+              <div className="image-section-description blue-description">
+                Event#2
+              </div>
+              <div className="image-section-description blue-description">
+                Event#3 etc
               </div>
               <div>
-                <Button buttonText="Experience the upgrade" />
+                <Button buttonText="View all events" />
               </div>
             </div>
           </div>
